@@ -3,99 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingbiz Consulting - Innovative Business Solutions</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <meta name="description" content="Ingbiz Consulting - Expert Salesforce consulting services in Edison, NJ">
+    <title>Ingbiz Consulting - Salesforce Experts</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Ingbiz Consulting</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Transform Your Business with Salesforce</h1>
+            <p class="hero-subtitle">Expert Salesforce consulting services to streamline your operations, boost productivity, and drive growth</p>
+            <a href="contact.html" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section">
         <div class="container">
-            <h1>Ingbiz Consulting</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="hero" class="hero-section">
-        <div class="container glass-card">
-            <h2>Your Partner in Business Innovation</h2>
-            <p>Empowering businesses with strategic insights and cutting-edge solutions.</p>
-            <a href="#services" class="button-orange">Explore Our Services</a>
-        </div>
-    </section>
-
-    <section id="about" class="section">
-        <div class="container glass-card">
-            <h3>About Ingbiz Consulting</h3>
-            <p>Ingbiz Consulting is dedicated to transforming business challenges into growth opportunities. With a team of experienced professionals, we deliver tailored strategies that drive efficiency, innovation, and sustainable success for our clients across various industries.</p>
-            <p>Based in Edison, NJ, we pride ourselves on building strong, long-lasting partnerships and achieving measurable results.</p>
-        </div>
-    </section>
-
-    <section id="services" class="section">
-        <div class="container glass-card">
-            <h3>Our Services</h3>
-            <div class="service-grid">
-                <div class="service-item">
-                    <h4>Strategic Planning</h4>
-                    <p>Develop robust business strategies for future growth and market leadership.</p>
+            <h2 class="section-title">Why Choose Ingbiz Consulting?</h2>
+            <p class="section-subtitle">Your trusted partner in Salesforce excellence</p>
+            
+            <div class="about-content">
+                <div class="about-text glass-card">
+                    <h3>Expertise You Can Trust</h3>
+                    <p>At Ingbiz Consulting, we specialize in delivering comprehensive Salesforce solutions tailored to your unique business needs. Our team of certified professionals brings years of experience in implementing, customizing, and optimizing Salesforce platforms.</p>
+                    <p>We understand that every organization is different, which is why we take a personalized approach to each project, ensuring that your Salesforce investment delivers maximum value.</p>
                 </div>
-                <div class="service-item">
-                    <h4>Digital Transformation</h4>
-                    <p>Guide your business through technological shifts with seamless integration.</p>
-                </div>
-                <div class="service-item">
-                    <h4>Operational Efficiency</h4>
-                    <p>Optimize processes to reduce costs and enhance productivity.</p>
-                </div>
-                <div class="service-item">
-                    <h4>Market Research</h4>
-                    <p>Provide in-depth market analysis for informed decision-making.</p>
+                <div class="about-features glass-card">
+                    <ul>
+                        <li>Certified Salesforce Professionals</li>
+                        <li>Custom Solutions for Your Business</li>
+                        <li>End-to-End Implementation Support</li>
+                        <li>Ongoing Training and Support</li>
+                        <li>Proven Track Record of Success</li>
+                        <li>Agile and Flexible Approach</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section">
-        <div class="container glass-card">
-            <h3>Contact Us</h3>
-            <p>Ready to elevate your business? Get in touch with Ingbiz Consulting today!</p>
-            <address>
-                <strong>Location:</strong> Edison, NJ<br>
-                <strong>Phone:</strong> <a href="tel:+12015008328">201-500-8328</a><br>
-                <strong>Email:</strong> <a href="mailto:info@ingbiz.net">info@ingbiz.net</a>
-            </address>
-            <form id="contact-form">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+    <!-- Services Preview Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive Salesforce solutions for every need</p>
+            
+            <div class="services-grid">
+                <div class="service-card glass-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Implementation</h3>
+                    <p>Complete Salesforce implementation from planning to deployment, ensuring a smooth transition.</p>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                <div class="service-card glass-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Custom Development</h3>
+                    <p>Tailored applications and custom features built to match your specific business processes.</p>
                 </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
+                <div class="service-card glass-card">
+                    <div class="service-icon">🔗</div>
+                    <h3>Integration</h3>
+                    <p>Seamless integration with your existing systems and third-party applications.</p>
                 </div>
-                <button type="submit" class="button-orange">Send Message</button>
-            </form>
-            <p id="form-status"></p>
+            </div>
+            
+            <div class="cta-center">
+                <a href="services.html" class="cta-button">View All Services</a>
+            </div>
         </div>
     </section>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2023 Ingbiz Consulting. All rights reserved. | Edison, NJ</p>
+            <p>&copy; 2025 Ingbiz Consulting. All rights reserved.</p>
+            <p>Salesforce Consulting Experts | Edison, NJ</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
